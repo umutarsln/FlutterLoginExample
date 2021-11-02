@@ -33,8 +33,8 @@ class LoginScreen extends StatelessWidget {
                 height: 1.0,
               ),
               Text(
-                "Giriş Yapın",
-                style: TextStyle(fontSize: 24.0),
+                "Login",
+                style: TextStyle(fontSize: 22.0),
                 textAlign: TextAlign.center,
               ),
               Padding(
@@ -66,7 +66,7 @@ class LoginScreen extends StatelessWidget {
                       controller: passwordTextEditingController,
                       obscureText: true,
                       decoration: InputDecoration(
-                          labelText: "Şifre",
+                          labelText: "Password",
                           labelStyle: TextStyle(
                             fontSize: 14.0,
                           ),
@@ -79,7 +79,7 @@ class LoginScreen extends StatelessWidget {
                       ),
                     ),
                     SizedBox(
-                      height: 10.0,
+                      height: 35.0,
                     ),
                     // ignore: deprecated_member_use
                     RaisedButton(
@@ -87,9 +87,10 @@ class LoginScreen extends StatelessWidget {
                       textColor: Colors.white,
                       child: Container(
                           height: 50.0,
+                          width: 200.0,
                           child: Center(
                             child: Text(
-                              "Giriş Yap",
+                              "Login",
                               style: TextStyle(fontSize: 18.0),
                             ),
                           )),
@@ -118,8 +119,8 @@ class LoginScreen extends StatelessWidget {
                   //context, RegisterScreen.idScreen, (route) => false);
                 },
                 child: Text(
-                  "Hesap Aç",
-                  style: TextStyle(fontSize: 20.0),
+                  "Register",
+                  style: TextStyle(fontSize: 18.0),
                 ),
               )
             ],
